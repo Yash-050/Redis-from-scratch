@@ -163,7 +163,9 @@ static bool try_flush_buffer(Conn *conn) {
     conn->state = STATE_REQ;
     conn->wbuf_sent = 0;
     conn->wbuf_size = 0;
-    return false;
+    
+    
+    return false ;
   }
 
   return true;

@@ -118,6 +118,11 @@ int main() {
     int32_t err = send_req(fd, query_list[i]);
     if (err) {
       goto L_DONE;
+
+
+
+
+      
     }
   }
   for (size_t i = 0; i < 3; ++i) {
